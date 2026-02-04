@@ -9,8 +9,14 @@ for i in values:
 print(values[0])
 print(values[6]) """
 
-x = "this is a thing"
+""" input question
+split answer
+count string somehow """
+
+
+Sentence=str(input("Write a sentence"))
+x = Sentence
 y= x.split( )
 z = y[0]
 print(y)
-print(z)
+len(Sentence)==int
