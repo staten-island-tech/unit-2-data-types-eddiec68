@@ -14,9 +14,30 @@ split answer
 count string somehow """
 
 
-Sentence=str(input("Write a sentence"))
+""" Sentence=(input("Write a sentence"))
 x = Sentence
-y= x.split( )
-z = y[0]
+y= x.split()
 print(y)
-len(Sentence)==int
+print(len(y)) """
+
+""" x = "test"
+print(f"hello {x}") """
+
+""" WriteNum=int(input("write a number"))
+if WriteNum %2 == 0:
+    print("even")
+else: print("odd") """
+
+Bill=int(input("What is your bill"))
+Rating=(input("How was the service?: bad, okay, good, great"))
+if Rating == "bad":
+    print("your bill is")
+    print(Bill)
+elif Rating == "okay": 
+    ndigits: int = 10^2
+    x= round(Bill * 1.15)
+    print("your bill is")
+    print(x)
+elif Rating == "good":
+    print
+
