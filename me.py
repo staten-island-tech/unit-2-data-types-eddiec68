@@ -28,16 +28,30 @@ if WriteNum %2 == 0:
     print("even")
 else: print("odd") """
 
-Bill=int(input("What is your bill"))
+""" Bill=int(input("What is your bill"))
 Rating=(input("How was the service?: bad, okay, good, great"))
 if Rating == "bad":
     print("your bill is")
     print(Bill)
 elif Rating == "okay": 
-    ndigits: int = 10^2
-    x= round(Bill * 1.15)
+    x=(Bill * 1.15)
     print("your bill is")
     print(x)
 elif Rating == "good":
-    print
+    y=(Bill * 1.2)
+    print("your bill is")
+    print(y)
+elif Rating == "great":
+    z=(Bill * 1.25)
+    print("your bill is")
+    print(z) """
+
+Number=int(input("Gimme a number"))
+for i in range(2,10):
+    if i % 2 == 0:
+        print(2)
+print (1)
+print(Number)
+
+
 
