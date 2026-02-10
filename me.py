@@ -57,24 +57,22 @@ Number=int(input("Gimme a number"))
 factor(Number) """
 
 
-def factor(x):
+
+        
+def gfactor(x , y):
     factor = 0
-    for i in range (1, x+1):
-        if x % i == 0:
-            list(i) 
-def factortwo(y):
-    factor = 0
-    for i in range (1, y+1):
-        if y % i == 0:
-            list(i)
+    for i in range (1, x, y +1):
+        if x % i == y % i:
+            factor = 0
+            factor = i
+            print(i)
 
             
 
 
 Number=int(input("Number 1"))
-factor(Number)
 Numbertwo=int(input("Number 2"))
-factor(Numbertwo)
+gfactor(Number, Numbertwo)
 
 
 
