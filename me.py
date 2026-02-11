@@ -60,12 +60,12 @@ factor(Number) """
 
         
 def gfactor(x , y):
-    factor = 0
-    for i in range (1, x, y +1):
-        if x % i == y % i:
-            factor = 0
-            factor = i
-            print(i)
+    gcfactor = 0
+    for i in range (1, x +1):
+        if x % i == 0 and y % i == 0:
+              gcfactor=i
+    print(gcfactor)
+
 
             
 
