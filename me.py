@@ -59,7 +59,7 @@ factor(Number) """
 
 
         
-def gfactor(x , y):
+""" def gfactor(x , y):
     gcfactor = 0
     for i in range (1, x +1):
         if x % i == 0 and y % i == 0:
@@ -68,7 +68,7 @@ def gfactor(x , y):
 
 Number=int(input("Number 1"))
 Numbertwo=int(input("Number 2"))
-gfactor(Number, Numbertwo)
+gfactor(Number, Numbertwo) """
  
 
 
