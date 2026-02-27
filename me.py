@@ -66,14 +66,10 @@ def gfactor(x , y):
               gcfactor=i
     print(gcfactor)
 
-
-            
-
-
 Number=int(input("Number 1"))
 Numbertwo=int(input("Number 2"))
 gfactor(Number, Numbertwo)
-
+ 
 
 
 
